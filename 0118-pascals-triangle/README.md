@@ -1,3 +1,5 @@
+<h2>Day 1: Q.no.2-> LeetCode</h2>
+
 <h2><a href="https://leetcode.com/problems/pascals-triangle/">118. Pascal's Triangle</a></h2><h3>Easy</h3><hr><div><p>Given an integer <code>numRows</code>, return the first numRows of <strong>Pascal's triangle</strong>.</p>
 
 <p>In <strong>Pascal's triangle</strong>, each number is the sum of the two numbers directly above it as shown:</p>

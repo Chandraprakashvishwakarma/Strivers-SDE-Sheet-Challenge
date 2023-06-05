@@ -1,3 +1,6 @@
+/*
+Q. no. 7: Rotate Matrix
+*/
 import java.io.*;
 import java.util.* ;
 

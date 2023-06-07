@@ -34,6 +34,9 @@
 </ul>
 </div>
 
+
+<hr>
+
 <h2>Codding Ninjas</h2>
 
 <h2><a href="https://www.codingninjas.com/codestudio/problems/modular-exponentiation_8230803?challengeSlug=striver-sde-challenge">Modular Exponentiation</a></h2><h3>Medium</h3><hr><div><p>You are given a three integers 'X', 'N', and 'M'. Your task is to find ('X' ^ 'N') %

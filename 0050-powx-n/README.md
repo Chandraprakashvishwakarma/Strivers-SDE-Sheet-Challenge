@@ -42,7 +42,7 @@
 
 <h2>Codding Ninjas</h2>
 
-<h2><a href="https://www.codingninjas.com/codestudio/problems/modular-exponentiation_8230803?challengeSlug=striver-sde-challenge">Modular Exponentiation</a></h2><hr><div><p>You are given a three integers 'X', 'N', and 'M'. Your task is to find ('X' ^ 'N') %
+<h2><a href="https://www.codingninjas.com/codestudio/problems/modular-exponentiation_8230803?challengeSlug=striver-sde-challenge">Modular Exponentiation</a></h2><div><p>You are given a three integers 'X', 'N', and 'M'. Your task is to find ('X' ^ 'N') %
 'M'. A ^ B is defined as A raised to power B and A % C is the remainder when A is divided by C.</p>
 
 <p>&nbsp;</p>

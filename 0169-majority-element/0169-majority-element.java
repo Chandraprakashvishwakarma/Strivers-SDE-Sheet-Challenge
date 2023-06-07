@@ -1,5 +1,5 @@
 /*
-Q. no. 15: Maximum Subarray
+Q. no. 15: Majority Element
 */
 class Solution {
     public int majorityElement(int[] nums) {

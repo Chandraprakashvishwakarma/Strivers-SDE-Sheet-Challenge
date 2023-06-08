@@ -20,7 +20,7 @@ You can return the answer in any order.</p>
 <strong>Output:</strong> [1,2]
 </pre>
   
-  <h2>Day 5: Q.no.19-> LeetCode</h2>
+  <h2>Day 5: Q.no.19-> Codding Ninjas </h2>
 
 <h2><a href="https://www.codingninjas.com/codestudio/problems/pair-sum_8230699?challengeSlug=striver-sde-challenge&leftPanelTab=0"> Pair Sum</a></h2><div><p>You are given an integer array 'ARR' of size 'N' and an integer
 'S'. Your task is to return the list of all pairs of elements such that each sum of elements of each pair equals 'S'.

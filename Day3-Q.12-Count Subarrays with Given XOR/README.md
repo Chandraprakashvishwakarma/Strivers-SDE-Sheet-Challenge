@@ -9,7 +9,8 @@ An array 'B' is a subarray of an array 'A' if 'B' that can be obtained by deleti
 
 <pre><strong>Input:</strong> target = 8  arr = [ 5 3 8 3 10 ]
 <strong>Output:</strong> 2
-<strong>Explanation:</strong> In the first test case, the subarray from index 1 to index 3 i.e. {3,8,3} and the subarray from index 2 to index 2 i.e. {8} have bitwise XOR equal to 8.
+<strong>Explanation:</strong> In the first test case, the subarray from index 1 to index 3 i.e. {3,8,3} and
+the subarray from index 2 to index 2 i.e. {8} have bitwise XOR equal to 8.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>

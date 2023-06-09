@@ -1,6 +1,6 @@
 <h2>Day 6: Q.no.23-> Codding Ninjas</h2>
 
-<h2><a href="[https://leetcode.com/problems/reverse-pairs/](https://www.codingninjas.com/codestudio/problems/count-subarrays-with-given-xor_8230830?challengeSlug=striver-sde-challenge&leftPanelTab=0)">Count Subarrays with Given XOR</a></h2><h3>Medium</h3><hr><div><p>Given an array of integers 'ARR' and an integer 'X', you are supposed to find the number of subarrays of 'ARR' which have bitwise XOR of the elements equal to 'X'
+<h2><a href="https://www.codingninjas.com/codestudio/problems/count-subarrays-with-given-xor_8230830?challengeSlug=striver-sde-challenge&leftPanelTab=0">Count Subarrays with Given XOR</a></h2><h3>Medium</h3><hr><div><p>Given an array of integers 'ARR' and an integer 'X', you are supposed to find the number of subarrays of 'ARR' which have bitwise XOR of the elements equal to 'X'
 Note:
 An array 'B' is a subarray of an array 'A' if 'B' that can be obtained by deletion of, several elements (possibly none) from the start of 'A' and several elements (possibly none) from the end of 'A'.</p>
 

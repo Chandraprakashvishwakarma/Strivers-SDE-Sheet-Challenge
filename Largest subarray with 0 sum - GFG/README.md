@@ -1,6 +1,6 @@
 <h2>Day 6: Q.no.22-> GeeksForGeeks</h2>
 
-<h2><a href="[https://leetcode.com/problems/reverse-pairs/](https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1)"> Largest subarray with 0 sum </a></h2><h3>Easy</h3><hr>
+<h2><a href="https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1"> Largest subarray with 0 sum </a></h2><h3>Easy</h3><hr>
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array having both positive and negative integers. The task is to compute the&nbsp;length of the largest subarray with sum 0.</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>

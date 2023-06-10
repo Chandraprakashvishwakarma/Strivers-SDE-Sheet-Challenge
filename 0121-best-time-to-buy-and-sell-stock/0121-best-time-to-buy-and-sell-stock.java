@@ -11,3 +11,25 @@ class Solution {
         return max;
     }
 }
+
+/*
+
+Codding Ninjas:
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+
+public class Solution{
+    public static int maximumProfit(ArrayList<Integer> prices){
+        int min=Integer.MAX_VALUE;
+        int maxProfit = Integer.MIN_VALUE;
+        for(int i:prices){
+            min = Math.min(min,i);
+            maxProfit = Math.max(maxProfit,i-min);
+        }
+        return maxProfit;
+    }
+}
+
+*/

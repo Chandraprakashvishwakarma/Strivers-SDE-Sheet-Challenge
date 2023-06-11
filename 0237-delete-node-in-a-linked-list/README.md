@@ -1,3 +1,5 @@
+<h2>Day 8: Q.no.30-> LeetCode</h2>
+
 <h2><a href="https://leetcode.com/problems/delete-node-in-a-linked-list/">237. Delete Node in a Linked List</a></h2><h3>Medium</h3><hr><div><p>There is a singly-linked list <code>head</code> and we want to delete a node <code>node</code> in it.</p>
 
 <p>You are given the node to be deleted <code>node</code>. You will <strong>not be given access</strong> to the first node of <code>head</code>.</p>

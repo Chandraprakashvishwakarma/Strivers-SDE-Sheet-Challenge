@@ -1,3 +1,6 @@
+/*
+Q. no. 44: Minimum Number of Platforms
+*/
 //{ Driver Code Starts
 //Initial Template for Java
 
@@ -40,9 +43,7 @@ class GFG
 
 
 //User function Template for Java
-/*
-Q. no. 44: Minimum Number of Platforms
-*/
+
 class Solution
 {
     static int findPlatform(int arr[], int dep[], int n)

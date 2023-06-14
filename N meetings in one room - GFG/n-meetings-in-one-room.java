@@ -1,3 +1,6 @@
+/*
+Q. no. 43: Maximum meetings
+*/
 //{ Driver Code Starts
 import java.io.*;
 import java.util.*;
@@ -32,9 +35,7 @@ class GFG {
 
 // } Driver Code Ends
 
-/*
-Q. no. 43: Maximum meetings
-*/
+
 class Solution 
 {
     public static int maxMeetings(int start[], int end[], int n)

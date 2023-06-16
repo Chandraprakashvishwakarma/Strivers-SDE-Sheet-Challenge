@@ -32,8 +32,10 @@ Start = [ 1 1 1 ]
 End  = [ 4 5 9 ]
 </span>
 <span style="font-size:18px"><strong>Output:</strong> 1 </span>
+<span style="font-size:18px"><strong>Explanation:</strong>
+For test case 2:
+As the starting of all the activities is the same, a person can perform a maximum of 1 activity.
 </pre>
 
-<p><span style="font-size:18px"><strong>For test case 2:
-As the starting of all the activities is the same, a person can perform a maximum of 1 activity.</span></p>
+<p><span style="font-size:18px"><strong></span></p>
 </span></pre>

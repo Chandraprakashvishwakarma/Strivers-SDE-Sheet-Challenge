@@ -1,3 +1,5 @@
+<h2>Day 12: Q.no.46-> GeekForGeeks</h2>
+
 # Fractional Knapsack
 ## Medium
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given <em>weights</em> and <em>values</em> of <strong>N</strong> items, we need to put these items in a knapsack of capacity <strong>W</strong> to get the <em>maximum</em> total value in the knapsack.<br>

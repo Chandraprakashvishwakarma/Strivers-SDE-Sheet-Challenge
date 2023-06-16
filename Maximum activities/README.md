@@ -21,8 +21,7 @@ End  = [ 2 7 5 8 ]
 <span style="font-size:18px"><strong>Explanation:</strong>
 For test case 1: 
 A person can perform maximum of 3 activities, by performing the activities in the given order 1 - > 3 -> 2.
-
-
+</span></pre>
 
 <p><strong><span style="font-size:18px">Example 2:</span></strong></p>
 
@@ -38,4 +37,4 @@ As the starting of all the activities is the same, a person can perform a maximu
 </pre>
 
 <p><span style="font-size:18px"><strong></span></p>
-</span></pre>
+

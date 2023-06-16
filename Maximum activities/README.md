@@ -1,6 +1,6 @@
 <h2>Day 13: Q.no.49-> GeekForGeeks</h2>
 
-# Subset Sums
+# Maximum activities
 ## Medium
 <div class="problems_problem_content__Xm_eO"><div class="entry-content">
 <p><span style="font-size:18px">You are given N activities with their start time Start|I and finish time Finish . You need to tell the maximum number of activities a single person can perform.
@@ -22,7 +22,7 @@ End  = [ 2 7 5 8 ]
 For test case 1: 
 A person can perform maximum of 3 activities, by performing the activities in the given order 1 - > 3 -> 2.
 
-</span></pre>
+
 
 <p><strong><span style="font-size:18px">Example 2:</span></strong></p>
 
@@ -36,5 +36,4 @@ End  = [ 4 5 9 ]
 
 <p><span style="font-size:18px"><strong>For test case 2:
 As the starting of all the activities is the same, a person can perform a maximum of 1 activity.</span></p>
-
-
+</span></pre>

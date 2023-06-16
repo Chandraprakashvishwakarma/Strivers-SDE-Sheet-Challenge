@@ -1,27 +1,3 @@
-//{ Driver Code Starts
-//Initial Template for Java
-
-import java.io.*;
-import java.util.*;
-class GfG
-{
-    public static void main(String args[])
-        {
-            Scanner sc = new Scanner(System.in);
-            int t = sc.nextInt();
-            while(t-->0)
-                {
-                    int v = sc.nextInt();
-                    int m = sc.nextInt();
-                    int coins[] = new int[m];
-                    for(int i = 0;i<m;i++)
-                        coins[i] = sc.nextInt();
-                    Solution ob = new Solution();
-                    System.out.println(ob.minCoins(coins, m, v));
-                }
-        }
-}    
-// } Driver Code Ends
 
 /*
 Q. no. 47: Find Minimum Number Of Coins
@@ -77,3 +53,27 @@ public static int findMinimumCoins(int amount)
     }
 }
 */
+//{ Driver Code Starts
+//Initial Template for Java
+
+import java.io.*;
+import java.util.*;
+class GfG
+{
+    public static void main(String args[])
+        {
+            Scanner sc = new Scanner(System.in);
+            int t = sc.nextInt();
+            while(t-->0)
+                {
+                    int v = sc.nextInt();
+                    int m = sc.nextInt();
+                    int coins[] = new int[m];
+                    for(int i = 0;i<m;i++)
+                        coins[i] = sc.nextInt();
+                    Solution ob = new Solution();
+                    System.out.println(ob.minCoins(coins, m, v));
+                }
+        }
+}    
+// } Driver Code Ends

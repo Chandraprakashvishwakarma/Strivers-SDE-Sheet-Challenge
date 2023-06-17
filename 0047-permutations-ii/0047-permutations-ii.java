@@ -3,6 +3,7 @@ Q. no. 55: Print Permutations - String
 */
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
+        Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
         boolean [] used = new boolean[nums.length];
         helper(nums,res,new ArrayList<Integer>(),used);

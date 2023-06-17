@@ -14,7 +14,7 @@ class Solution {
             return;
         }
         for(int i=0;i<a.length;i++){
-            if(used[i] ) continue; 
+            if(used[i] || i > 0 && a[i] == a[i-1] && !used[i - 1] ) continue; 
             used[i]=true;
             temp.add(a[i]);
             helper(a,res,temp,used);

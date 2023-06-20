@@ -1,4 +1,4 @@
-<h2>Day 9: Q.no.36-> Codding Ninjas</h2>
+<h2>Day 16: Q.no.62-> Codding Ninjas</h2>
 
 # Matrix Median
 ## Medium

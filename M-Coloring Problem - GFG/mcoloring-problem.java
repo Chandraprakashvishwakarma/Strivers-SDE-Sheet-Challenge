@@ -29,6 +29,9 @@ class GFG {
 
 // } Driver Code Ends
 
+/*
+Q. no. 58: M-Coloring Problem
+*/
 
 class solve {
     // Function to determine if graph can be coloured with at most M colours

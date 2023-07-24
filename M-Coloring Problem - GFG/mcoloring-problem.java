@@ -29,30 +29,30 @@ class GFG {
 
 // } Driver Code Ends
 
-/*
-Q. no. 58: M-Coloring Problem
-*/
+
 class solve {
     // Function to determine if graph can be coloured with at most M colours
     // such
     // that no two adjacent vertices of graph are coloured with same colour.
-    public boolean graphColoring(boolean graph[][], int m, int n) {
-        int [] color = new int [n];
-        return helper(graph,color,0,m,n);
+    public boolean graphColoring(boolean mat[][], int m, int n) {
+        // Your code here
+        int [] color = new int [mat.length];
+		 if(helper(mat,color,0,m)) return true;
+		 else return false;
     }
-    public boolean helper(boolean [][] mat , int [] color,int node,int m,int n){
-		if(node == n) return true;
+    public boolean helper(boolean [][] mat , int [] color,int node,int m){
+		if(node == mat.length) return true;
 		for(int i=1;i<=m;i++){
 			if(possible(mat,i,node,color)){
 				color[node] = i;
-				if(helper(mat,color,node+1,m,n)) return true;
+				if(helper(mat,color,node+1,m)) return true;
 				else color[node] = 0;
 			}
 		}
 		return false;
 	}
 	public boolean possible(boolean [][] mat,int k,int node,int [] color){
-		boolean [] temp=mat[node];
+		 boolean [] temp=mat[node];
 			for(int j=0;j<temp.length;j++){
 				if(temp[j]==true && color[j]==k) return false;
 			}
@@ -90,4 +90,5 @@ public class Solution {
 		return true;
 	}
 }
+
 */

@@ -10,8 +10,6 @@ Note:
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
 <pre><span style="font-size:18px"><strong>Input</strong>:
-n = '3'
-m = '27'
 'n' = 3, 'm' = 27
 
 <strong>Output:</strong>

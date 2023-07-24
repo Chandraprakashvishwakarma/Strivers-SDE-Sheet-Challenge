@@ -29,50 +29,73 @@ class Rat {
 
 // } Driver Code Ends
 
-/*
-Q. no. 59: Rat in a Maze
-*/
+
 // User function Template for Java
 
 // m is the given matrix and n is the order of matrix
+/*
+Q. no. 59: Max Consecutive Ones
+*/
+
 class Solution {
     public static ArrayList<String> findPath(int[][] maze, int n) {
+        // Your code here
         ArrayList<String> res = new ArrayList<>();
         int [][] path = new int [n][n]; 
         if(maze[0][0] == 1 && maze[n-1][n-1]==1 ) helper(res,maze,path,n,0,0,"");
         return res;
     }
-    public static void helper(ArrayList<String> res ,int [][] maze ,int [][]  path,int n, int row,int col,String move){
+    public static void helper(ArrayList<String> res ,int [][] maze ,int [][]  path,int n, int row,int col,String temp){
         if(row == n-1 && col == n-1) {
-            res.add(move);
+            // path[row][col]=1;
+            // build(res,path,n);
+            // path[row][col]=0;
+            res.add(temp);
             return;
         }
         //down
         if(row+1<n && path[row+1][col]==0 && maze[row+1][col]==1){
             path[row][col]=1;
-            helper(res,maze,path,n,row+1,col,move+'D');
+            temp+='D';
+            helper(res,maze,path,n,row+1,col,temp);
             path[row][col]=0;
+            temp = temp.substring(0,temp.length()-1);
         }
         //left
         if(col-1>=0 && path[row][col-1]==0 && maze[row][col-1]==1){
             path[row][col]=1;
-            helper(res,maze,path,n,row,col-1,move+'L');
+            temp+='L';
+            helper(res,maze,path,n,row,col-1,temp);
             path[row][col]=0;
+            temp = temp.substring(0,temp.length()-1);
         }
         //right
         if(col+1<n && path[row][col+1]==0 && maze[row][col+1]==1){
             path[row][col]=1;
-            helper(res,maze,path,n,row,col+1,move+'R');
+            temp+='R';
+            helper(res,maze,path,n,row,col+1,temp);
             path[row][col]=0;
+            temp = temp.substring(0,temp.length()-1);
         }
         //up
         if(row-1>=0 && path[row-1][col]==0 && maze[row-1][col]==1){
             path[row][col]=1;
-            helper(res,maze,path,n,row-1,col,move+'U');
+            temp+='U';
+            helper(res,maze,path,n,row-1,col,temp);
             path[row][col]=0;
+            temp = temp.substring(0,temp.length()-1);
         }
     }
-    
+
+    // public static void build(ArrayList<String> res ,int [][] path,int n){
+    //     String temp ="";
+    //     for(int i=0;i<n;i++){
+    //         for(int j=0;j<n;j++){
+    //             temp+=('0'+path[i][j]);
+    //         }
+    //     }
+    //     res.add(temp);
+    // }
 }
 
 /*
@@ -131,6 +154,5 @@ public class Solution {
         res.add(new ArrayList<>(temp));
     }
 }
-
 
 */

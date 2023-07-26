@@ -1,5 +1,5 @@
-# K Max Sum Combinations
-## Easy
+# Merge K sorted arrays
+## Medium
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">
  You have been given 'K' different arrays/lists, which are sorted individually (in ascending order). You need to merge all the given arrays/list such that the output array/list should be sorted in ascending order.
 </span><br>

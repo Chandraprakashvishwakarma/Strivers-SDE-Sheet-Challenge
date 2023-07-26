@@ -1,5 +1,5 @@
-# Allocate Books
-## Medium
+# Min Heap
+## Easy
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">
   Implement the Min Heap data structure. For information about Heap click here.
 You will be given 2 types of queries:-

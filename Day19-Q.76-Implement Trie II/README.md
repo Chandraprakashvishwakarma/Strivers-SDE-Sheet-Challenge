@@ -1,5 +1,5 @@
-# K Max Sum Combinations
-## Easy
+# Implement Trie II
+## Medium
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">
   Ninja has to implement a data structure "TRIE" from scratch.
 Nina has to complete some functions.

@@ -26,7 +26,7 @@ Here we can see that he study chapters in sequential order and the maximum time 
 1 2 2 3 1
 
 <strong>Output: </strong> 4
-<strong>Explanation: </strong>3<sup>2</sup>&nbsp;= 9</span>
+<strong>Explanation: </strong>
 The ayush will read the chapter as follows,
 Day 1 : 1 , 2         Time required : 3
 Day 2 : 3             Time required : 2

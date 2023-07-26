@@ -13,7 +13,6 @@ Here the optimal allocation is in rooms 1 3
 
 </span><br>
 &nbsp;</p>
-
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
 <pre><span style="font-size:18px"><strong>Input: </strong>
